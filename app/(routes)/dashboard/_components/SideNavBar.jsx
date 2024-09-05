@@ -10,13 +10,13 @@ function SideNavBar() {
     const menu=[
         {
             id:1,
-            name:'Meeting Type',
+            name:'Delivery Type',
             path:'/dashboard/meeting-type',
             icon:Briefcase
         },
         {
             id:2,
-            name:'Scheduled Meeting',
+            name:'Scheduled Delivery',
             path:'/dashboard/scheduled-meeting',
             icon:Calendar
         },
