@@ -10,13 +10,13 @@ function Hero() {
     <div className='flex flex-col justify-center items-center my-20'>
         <div className='hidden lg:block'>
             <Image src='/profile1.png' width={100} height={100}
-            className='h-[100px] object-cover rounded-full absolute right-30'/>
+            className='h-[100px] object-cover rounded-full absolute right-34'/>
              <Image src='/profile3.png' width={100} height={100}
-            className='h-[100px] object-cover rounded-full absolute left-30'/>
+            className='h-[100px] object-cover rounded-full top-46 left-20'/>
              <Image src='/profile2.png' width={100} height={100}
-            className='h-[100px] object-cover rounded-full absolute bottom-20 left-30'/>
+            className='h-[100px] object-cover rounded-full absolute bottom-20 left-36'/>
               <Image src='/profile4.png' width={100} height={100}
-            className='h-[100px] object-cover rounded-full absolute right-30 bottom-20' />
+            className='h-[100px] object-cover rounded-full absolute right-20 bottom-32' />
         </div>
         <div className='text-center max-w-3xl'>
         <h2 className='font-bold text-[60px] text-slate-700'>Two Brothers Transport</h2>
