@@ -48,7 +48,7 @@ async function getPosts() {
   return data.posts.nodes;
 }
 
-export default async function PostList() {
+export async function PostList() {
   const posts = await getPosts();
 
   return (
