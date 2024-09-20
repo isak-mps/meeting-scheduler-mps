@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Suspense } from "react";
 import Loading from "./loading";
 
-export default function Home() {
+export function Home() {
   return (
    <div>
       <Header/>
